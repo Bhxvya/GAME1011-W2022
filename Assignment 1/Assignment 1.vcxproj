@@ -149,6 +149,7 @@
     <ClInclude Include="CreatureBase.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnimationFrame.cpp" />
     <ClCompile Include="Parade.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
