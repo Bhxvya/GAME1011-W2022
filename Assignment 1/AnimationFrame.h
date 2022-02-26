@@ -10,17 +10,9 @@ public:
 	const int MAX_FRAMES = 3;
 	AnimationFrame() {}
 	void printCurrentAnim(fstream object);
-
 	void bufferInput()
 	{
 		cin.ignore();
 	}
-
-	void clearOutput()
-	{
-		for (int i = 0; i < 30; i++)
-		{
-			cout << endl;
-		}
-	}
+	void clearOutput();
 };

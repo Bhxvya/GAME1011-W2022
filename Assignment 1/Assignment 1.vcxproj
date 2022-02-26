@@ -155,6 +155,7 @@
     <ClCompile Include="Creature3.cpp" />
     <ClCompile Include="Creature4.cpp" />
     <ClCompile Include="Creature5.cpp" />
+    <ClCompile Include="Creature6.cpp" />
     <ClCompile Include="Parade.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
