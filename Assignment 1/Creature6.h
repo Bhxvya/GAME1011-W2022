@@ -4,9 +4,8 @@
 class Creature6 : public CreatureBase
 {
 public:
-	Creature6()
-	{
-		fstream Creature6;
-		Creature6.open("Creature6.txt");
-	}
+	string currentLine1, currentLine2, currentLine3;
+	ifstream creature6Input;
+	ofstream creature6Output;
+	void drawCreature();
 };
