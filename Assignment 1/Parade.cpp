@@ -28,6 +28,10 @@ int main()
 	Creature6 object6;
 	object6.drawCreature();
 
+	object.drawCreature2();
+	object2.drawCreature2();
+	object3.drawCreature2();
+	object4.drawCreature2();
 
 	return 0;
 }

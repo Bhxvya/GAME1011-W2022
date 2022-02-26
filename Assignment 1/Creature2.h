@@ -8,4 +8,5 @@ public:
 	ifstream creature2Input;
 	ofstream creature2Output;
 	void drawCreature();
+	void drawCreature2();
 };
