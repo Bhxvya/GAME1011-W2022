@@ -1,10 +1,13 @@
+#include "AnimationFrame.h"
 #include "CreatureBase.h"
+#include "Creature1.h"
 using namespace std;
 
 int main()
 {
-	fstream creature1;
-	creature1.open("Creature1.txt");
+	Creature1 object;
+	object.drawCreature();
+	
 	
 
 

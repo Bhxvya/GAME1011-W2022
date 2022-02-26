@@ -150,6 +150,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimationFrame.cpp" />
+    <ClCompile Include="Creature1.cpp" />
+    <ClCompile Include="Creature2.cpp" />
+    <ClCompile Include="Creature3.cpp" />
+    <ClCompile Include="Creature4.cpp" />
+    <ClCompile Include="Creature5.cpp" />
     <ClCompile Include="Parade.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
